@@ -1,0 +1,28 @@
+@charset "utf-8";
+WIERSZ {
+    font-size: 14pt;
+}
+
+WIERSZ,
+TYTUL,
+AUTOR,
+DATA,
+OBRAZ,
+STROFA,
+WERS {
+    display: block;
+}
+
+DATA,
+STROFA {
+    margin-bottom: 8mm;
+}
+
+OBRAZ {
+    background-image: url(lisc.bmp);
+    background-repeat: none;
+    background-position: center;
+    width: 52px;
+    height: 55px;
+    float: left;
+}
