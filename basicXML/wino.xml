@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/css" href="wino.css"?>
+
+<WIERSZ>
+
+<TYTUL>Vaenus and Adonis
+   <PODTYTUL>Poems</PODTYTUL>
+</TYTUL>
+<AUTOR>William Shakespeare</AUTOR>
+
+<ROZDZIAL>
+<NUMER>1.</NUMER>
+<STROFA>
+   <WERS>EVEN as the sun with purple-colour'd face,</WERS>
+   <WERS>Had ta'en his last leave of the weeping morn,</WERS>
+   <WERS>Rose –cheek'd Adonis held him to the chase;</WERS>
+   <WERS>Hunting he lov'd, but love he laugh'd to scorn;</WERS>
+   <WERS>Sick-thoughted Venus makes amain unto him,</WERS> 
+   <WERS>And like a bold-fac'd sultor 'gins to woo him.</WERS>   
+</STROFA>
+<STROFA>
+   <WERS>"Thrice fairer than myself" thus she began,</WERS>
+   <WERS>"The field's chief flower, sweet  above compare,</WERS>
+   <WERS>Stain to all nymphs, more lovely than a man,</WERS>
+   <WERS>More whote and red then doves or roses are;</WERS>
+   <WERS>Nature, that made tree, with herself at strife,</WERS> 
+   <WERS>Saith, that  the world hath endind with thy life.</WERS>   
+</STROFA>
+</ROZDZIAL>
+
+</WIERSZ>
+
