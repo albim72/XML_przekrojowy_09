@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE opisy [
+    <!ENTITY XML "eXtensible Markup Language">
+]>
+<abc>
+    <opisy>
+        <opis>To jest teskt o XML czuli o &XML;. Angielski termin oznacza "&XML;"
+            oznacza rozszerzalny język znaczników!
+        </opis>
+        <opis>Ciąg dalszy opisu....</opis>
+        <footer>koniec rozważań o &XML; </footer>
+    </opisy>
+    <xx>&XML;</xx>
+</abc>
