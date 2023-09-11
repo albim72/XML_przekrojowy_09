@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE klient SYSTEM "klient.dtd">
+<klient>
+    <dostawca>
+        <kod_dostawcy>123</kod_dostawcy>
+        <nazwa>
+            <nazwa_firmy>"XML COMP" Sp zoo</nazwa_firmy>
+        </nazwa>
+        <adres>
+            <ulica>XMLowa 34</ulica>
+            <miejscowosc>Kruki</miejscowosc>
+            <kod_pocztowy>900989</kod_pocztowy>
+        </adres>
+    </dostawca>
+    <odbiorca>
+        <kod_odbiorcy>987</kod_odbiorcy>
+        <nazwa>
+            <imie_nazwisko>Janusz Kos</imie_nazwisko>
+        </nazwa>
+        <adres>
+            <ulica>Wielkiego Wybuchu 7</ulica>
+            <miejscowosc>Galaktyka</miejscowosc>
+            <kod_pocztowy>00000</kod_pocztowy>
+        </adres>
+    </odbiorca>
+</klient>
