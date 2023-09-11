@@ -28,8 +28,7 @@ DATA {
     text-align: center;
 }
 
-DATA
-{
+DATA {
     font-style: italic;
 }
 
@@ -46,4 +45,19 @@ OBRAZ {
     width: 52px;
     height: 55px;
     float: left;
+}
+
+STROFA {
+    color: navy;
+    line-height: 5px;
+}
+
+WERS {
+    display: block;
+    margin-bottom: 7mm;
+}
+
+OSTATNIWERS {
+    display: block;
+    text-align: right;
 }
