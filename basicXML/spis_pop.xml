@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<?xml-stylesheet type="text/css" href="spis02.css"?>
+<SPIS>
+<KSIAZKA NaSkladzie="tak">
+<TYTUL>Przygody Hucka</TYTUL>
+<AUTOR Urodzony="1835">Mark Twain</AUTOR>
+<OPRAWA>okładka papierowa</OPRAWA>
+<STRONY>298</STRONY>
+<CENA>72zł</CENA>
+</KSIAZKA>
+<KSIAZKA NaSkladzie="nie">
+<TYTUL>Źdźbła trawy</TYTUL>
+<AUTOR Urodzony="1819">Walt Whitman</AUTOR>
+<OPRAWA>twarda oprawa</OPRAWA>
+<STRONY>462</STRONY>
+<CENA>96zł</CENA>
+</KSIAZKA>
+<KSIAZKA NaSkladzie="tak">
+<TYTUL>Legenda o Sennej Dolinie</TYTUL>
+<AUTOR>Washington Irving</AUTOR>
+<OPRAWA>okładka papierowa</OPRAWA>
+<STRONY>98</STRONY>
+<CENA>35zł</CENA>
+</KSIAZKA>
+<KSIAZKA NaSkladzie="tak">
+<TYTUL>Marmurowy faun</TYTUL>
+<AUTOR Urodzony="1804">Nathaniel Hawthorne</AUTOR>
+<OPRAWA>oprawa tekturowa</OPRAWA>
+<STRONY>473</STRONY>
+<CENA>132zł</CENA>
+</KSIAZKA>
+<KSIAZKA NaSkladzie="nie">
+<TYTUL>Moby Dick 
+<PODTYTUL>Czyli wieloryb</PODTYTUL>
+</TYTUL>
+<AUTOR Urodzony="1819">Herman Melville</AUTOR>
+<OPRAWA>twarda oprawa</OPRAWA>
+<STRONY>724</STRONY>
+<CENA>120zł</CENA>
+</KSIAZKA>
+<KSIAZKA NaSkladzie="tak">
+<TYTUL>Portret damy</TYTUL>
+<AUTOR>Henry James</AUTOR>
+<OPRAWA>okładka papierowa</OPRAWA>
+<STRONY>256</STRONY>
+<CENA>60zł</CENA>
+</KSIAZKA>
+<KSIAZKA NaSkladzie="tak">
+<TYTUL>Szkarłatna litera</TYTUL>
+<AUTOR>Nathaniel Hawthorne</AUTOR>
+<OPRAWA>oprawa tekturowa</OPRAWA>
+<STRONY>253</STRONY>
+<CENA>48zł</CENA>
+</KSIAZKA>
+<KSIAZKA NaSkladzie="nie">
+<TYTUL>W kleszczach lęku</TYTUL>
+<AUTOR>Henry James</AUTOR>
+<OPRAWA>oprawa tekturowa</OPRAWA>
+<STRONY>384</STRONY>
+<CENA>42zł</CENA>
+</KSIAZKA>
+</SPIS>
