@@ -2,6 +2,10 @@
 
 /*Css Dokument*/
 
+OBRAZ {
+    display: inline;
+}
+
 KSIAZKA {
     display: block;
     margin-top: 12pt;
