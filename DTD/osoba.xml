@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE osoba [
+
+    <!ENTITY mgr "magister">
+    <!ENTITY dr "doktor">
+    <!ENTITY prof "profesor">
+    <!ELEMENT osoba (imie,nazwisko)>
+
+    <!ATTLIST osoba tytul CDATA "&mgr;">
+
+    <!ELEMENT imie (#PCDATA)>
+    <!ELEMENT nazwisko (#PCDATA)>
+]>
+
+<osoba tytul="&dr;">
+    <imie>Karol</imie>
+    <nazwisko>Kowalski</nazwisko>
+</osoba>
