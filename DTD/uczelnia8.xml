@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE uczelnia [
+    <!ELEMENT uczelnia (wydzial*,kierunek*)>
+
+    <!ELEMENT wydzial (#PCDATA)>
+    <!ATTLIST wydzial rodzaje_studiow NMTOKENS #IMPLIED>
+
+    <!ELEMENT kierunek EMPTY>
+    <!ATTLIST kierunek nazwa CDATA #IMPLIED
+                rodzaj NMTOKEN #IMPLIED>
+]>
+
+<uczelnia>
+    <wydzial rodzaje_studiow = "dzienne podyplomowe zaoczne">
+        Wydział Informatyki i Cyberbezpieczeństwa
+    </wydzial>
+    <kierunek nazwa="kierunek informatyka" rodzaj="dzienne" />
+</uczelnia>
