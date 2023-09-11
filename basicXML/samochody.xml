@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ Tworzymy element root dla dokumentu   
+-->
+<autogielda>
+    <sam>
+        <marka>Opel</marka>
+        <model>Insignia</model>
+        <rocznik>2016</rocznik>
+        <przebieg>125600</przebieg>
+        <cena>57000</cena>
+    </sam>
+    <sam>
+        <marka>Opel</marka>
+        <model>Corsa</model>
+        <rocznik>2018</rocznik>
+        <przebieg>111600</przebieg>
+        <cena>45000</cena>
+    </sam>
+    <sam>
+        <marka>Jeep</marka>
+        <model>Cherokee</model>
+        <rocznik>2020</rocznik>
+        <przebieg>45300</przebieg>
+        <cena>165000</cena>
+    </sam>
+    <sam>
+        <marka>Honda</marka>
+        <model>Accord</model>
+        <rocznik>2012</rocznik>
+        <przebieg>188600</przebieg>
+        <cena>38000</cena>
+    </sam>
+    <sam>
+        <marka>Toyota</marka>
+        <model>Corolla</model>
+        <rocznik>2019</rocznik>
+        <przebieg>93200</przebieg>
+        <cena>86000</cena>
+    </sam>
+</autogielda>
