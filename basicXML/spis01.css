@@ -11,8 +11,23 @@ KSIAZKA {
 
 TYTUL {
     font-style: italic;
+    display: block;
+    font-weight: bolder;
+    font-size: 15pt;
 }
 
 AUTOR {
     font-weight: bold;
+    margin-left: 20px;
+    display: block;
+}
+
+OPRAWA,
+CENA {
+    display: block;
+    margin-left: 25px;
+}
+
+STRONY {
+    display: none;
 }
