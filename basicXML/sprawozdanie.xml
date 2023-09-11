@@ -3,11 +3,13 @@
 <sprawozdanie rodzaj='roczne'>
     <autorzy liczba_autorow='2'>
         <autor>
+            <obraz url='231.199.99.10/ob1.jpg' />
             <imie>Anna</imie>
             <nazwisko>Kot</nazwisko>
         </autor>
 
         <autor>
+            <obraz url='231.199.99.10/ob2.jpg' />
             <imie>Jan</imie>
             <nazwisko>Nowak</nazwisko>
         </autor>
