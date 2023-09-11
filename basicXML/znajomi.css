@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*Css Dokument*/
+
+osoba {
+    display: block;
+    margin-top: 12pt;
+    margin-left: 10pt;
+    font-size: 18pt;
+}
+
+imie {
+    font-style: italic;
+    display: inline;
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+nazwisko {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+dataur,
+miasto,
+email {
+    display: block;
+}
