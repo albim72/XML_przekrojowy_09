@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % firma SYSTEM "klient_firma.dtd">
+<!ENTITY % adres SYSTEM "klient_adres.dtd">
+
+%firma;
+%adres;
+
+<!ELEMENT klient (dostawca | odbiorca)*>
+
+<!ELEMENT dostawca (kod_dostawcy, nazwa, adres)>
+<!ELEMENT odbiorca (kod_odbiorcy, nazwa, adres)>
+<!ELEMENT kod_dostawcy (#PCDATA)>
+<!ELEMENT kod_odbiorcy (#PCDATA)>
