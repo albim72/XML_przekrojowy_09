@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT uczelnia (nazwa | rektor | profil)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT rektor (#PCDATA)>
+<!ELEMENT profil (#PCDATA)>
