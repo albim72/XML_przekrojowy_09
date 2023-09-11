@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE uczelnia SYSTEM "ucz5.dtd">
+<uczelnia>
+    <nazwa>Politechnika Śląska</nazwa>
+    <wydzial>
+        <kierunek>Automatyka,Eletronika i Informatyka</kierunek>
+        <instytut>Instytut Automatyki</instytut>
+        <instytut>Instytut Elektroniki</instytut>
+        <instytut>Instytut Informatyki</instytut>
+        na wydziale dostępne są 3 szatnie!
+    </wydzial>
+    <wydzial>
+        To jest Wydział Matematyki i Fizyki prowadzcy kierunek
+        <kierunek>Matematyka</kierunek>
+        oraz kierunek
+        <kierunek>Fizyka</kierunek>
+    </wydzial>
+</uczelnia>
