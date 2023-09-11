@@ -1,0 +1,49 @@
+@charset "utf-8";
+WIERSZ {
+    font-size: 14pt;
+    width: 14cm;
+    padding: 3mm;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+WIERSZ,
+TYTUL,
+AUTOR,
+DATA,
+STROFA {
+    display: block;
+    margin-bottom: 8mm;
+}
+
+AUTOR-BIO {
+    display: none;
+}
+
+TYTUL,
+AUTOR,
+DATA {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+DATA
+{
+    font-style: italic;
+}
+
+TYTUL {
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: 2pt;
+}
+
+OBRAZ {
+    background-image: url(lisc.bmp);
+    background-repeat: none;
+    background-position: center;
+    width: 52px;
+    height: 55px;
+    float: left;
+}
