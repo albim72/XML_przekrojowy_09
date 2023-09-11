@@ -1,60 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Nazwa pliku: Spis.xml -->
+<!-- Nazwa pliku: Spis.xml-->
 <?xml-stylesheet type="text/css" href="spis01.css"?>
+
 <SPIS>
-<KSIAZKA>
-<TYTUL>Przygody Hucka</TYTUL>
-<AUTOR>Mark Twain</AUTOR>
-<OPRAWA>okładka papierowa</OPRAWA>
-<STRONY>298</STRONY>
-<CENA>72zł</CENA>
-</KSIAZKA>
-<KSIAZKA>
-<TYTUL>Źdźbła trawy</TYTUL>
-<AUTOR>Walt Whitman</AUTOR>
-<OPRAWA>twarda oprawa</OPRAWA>
-<STRONY>462</STRONY>
-<CENA>96zł</CENA>
-</KSIAZKA>
-<KSIAZKA>
-<TYTUL>Legenda o Sennej Dolinie</TYTUL>
-<AUTOR>Washington Irving</AUTOR>
-<OPRAWA>okładka papierowa</OPRAWA>
-<STRONY>98</STRONY>
-<CENA>35zł</CENA>
-</KSIAZKA>
-<KSIAZKA>
-<TYTUL>Marmurowy faun</TYTUL>
-<AUTOR>Nathaniel Hawthorne</AUTOR>
-<OPRAWA>oprawa tekturowa</OPRAWA>
-<STRONY>473</STRONY>
-<CENA>132zł</CENA>
-</KSIAZKA>
-<KSIAZKA>
-<TYTUL>Moby Dick</TYTUL>
-<AUTOR>Herman Melville</AUTOR>
-<OPRAWA>twarda oprawa</OPRAWA>
-<STRONY>724</STRONY>
-<CENA>120zł</CENA>
-</KSIAZKA>
-<KSIAZKA>
-<TYTUL>Portret damy</TYTUL>
-<AUTOR>Henry James</AUTOR>
-<OPRAWA>okładka papierowa</OPRAWA>
-<STRONY>256</STRONY>
-<CENA>60zł</CENA>
-</KSIAZKA>
-<KSIAZKA>
-<TYTUL>Szkarłatna litera</TYTUL>
-<AUTOR>Nathaniel Hawthorne</AUTOR>
-<OPRAWA>oprawa tekturowa</OPRAWA>
-<STRONY>253</STRONY>
-<CENA>48zł</CENA>
-</KSIAZKA>
-<KSIAZKA>
-<TYTUL>The Turn of the Screw</TYTUL> <AUTOR>Henry James</AUTOR>
-<OPRAWA>oprawa tekturowa</OPRAWA>
-<STRONY>384</STRONY>
-<CENA>42zł</CENA>
-</KSIAZKA>
+    <KSIAZKA>
+        <OBRAZEK_OKLADKI source='kula.gif' />
+        <TYTUL>Przygody Hucka</TYTUL>
+        <AUTOR>Mark Twain</AUTOR>
+        <OPRAWA>okładka papierowa</OPRAWA>
+        <STRONY>298</STRONY>
+        <CENA>72zł</CENA>
+    </KSIAZKA>
+    <KSIAZKA>
+        <OBRAZEK_OKLADKI source='trawa.gif' />
+        <TYTUL>Źdźbła trawy</TYTUL>
+        <AUTOR>Walt Whitman</AUTOR>
+        <OPRAWA>twarda oprawa</OPRAWA>
+        <STRONY>462</STRONY>
+        <CENA>96zł</CENA>
+    </KSIAZKA>
+    <KSIAZKA>
+        <OBRAZEK_OKLADKI source='kula.gif' />
+        <TYTUL>Legenda o Sennej Dolinie</TYTUL>
+        <AUTOR>Washington Irving</AUTOR>
+        <OPRAWA>okładka papierowa</OPRAWA>
+        <STRONY>98</STRONY>
+        <CENA>35zł</CENA>
+    </KSIAZKA>
+    <KSIAZKA>
+        <OBRAZEK_OKLADKI source='trawa.gif' />
+        <TYTUL>Marmurowy faun</TYTUL>
+        <AUTOR>Nathaniel Hawthorne</AUTOR>
+        <OPRAWA>oprawa tekturowa</OPRAWA>
+        <STRONY>473</STRONY>
+        <CENA>132zł</CENA>
+    </KSIAZKA>
+    <KSIAZKA>
+        <OBRAZEK_OKLADKI source='kula.gif' />
+        <TYTUL>Moby Dick
+            <PODTYTUL>czyli wieloryb</PODTYTUL>
+        </TYTUL>
+        <AUTOR>Herman Melville</AUTOR>
+        <OPRAWA>twarda oprawa</OPRAWA>
+        <STRONY>724</STRONY>
+        <CENA>120zł</CENA>
+    </KSIAZKA>
+    <KSIAZKA>
+        <TYTUL>Portret damy</TYTUL>
+        <AUTOR>Henry James</AUTOR>
+        <OPRAWA>okładka papierowa</OPRAWA>
+        <STRONY>256</STRONY>
+        <CENA>60zł</CENA>
+    </KSIAZKA>
+    <KSIAZKA>
+        <OBRAZEK_OKLADKI source='kula.gif' />
+        <TYTUL>Szkarłatna litera</TYTUL>
+        <AUTOR>Nathaniel Hawthorne</AUTOR>
+        <OPRAWA>oprawa tekturowa</OPRAWA>
+        <STRONY>253</STRONY>
+        <CENA>48zł</CENA>
+    </KSIAZKA>
+    <KSIAZKA>
+        <OBRAZEK_OKLADKI source='kula.gif' />
+        <TYTUL>The Turn of the Screw</TYTUL>
+        <AUTOR>Henry James</AUTOR>
+        <OPRAWA>oprawa tekturowa</OPRAWA>
+        <STRONY>384</STRONY>
+        <CENA>42zł</CENA>
+    </KSIAZKA>
+    <KSIAZKA>
+        <OBRAZEK_OKLADKI source='trawa.gif' />
+        <TYTUL>Wiedźmin</TYTUL>
+        <AUTOR>Andrzej Sapkowski</AUTOR>
+        <OPRAWA>oprawa tekturowa</OPRAWA>
+        <STRONY>323</STRONY>
+        <CENA>41zł</CENA>
+    </KSIAZKA>
 </SPIS>
