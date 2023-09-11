@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT nazwa (nazwa_firmy | imie_nazwisko_wlasciciela)>
+<!ELEMENT nazwa_firmy (#PCDATA)>
+<!ELEMENT imie_nazwisko_wlasciciela (#PCDATA)>
