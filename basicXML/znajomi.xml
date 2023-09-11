@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="znajomi.css"?>
+<lista_znajomych>
+    <osoba>
+        <imie>Jan</imie>
+        <nazwisko>Kowal</nazwisko>
+        <dataur>12.03.1970</dataur>
+        <miasto>Tarnów</miasto>
+        <email>kowal@abc.pl</email>
+    </osoba>
+    <osoba>
+        <imie>Olga</imie>
+        <nazwisko>Kot</nazwisko>
+        <dataur>14.07.1988</dataur>
+        <miasto>Kielce</miasto>
+        <email>kotek@abc.pl</email>
+    </osoba>
+    <osoba>
+        <imie>Olaf</imie>
+        <nazwisko>Kern</nazwisko>
+        <dataur>23.10.1966</dataur>
+        <miasto>Kraków</miasto>
+        <email>kermit@abc.pl</email>
+    </osoba>
+    <osoba>
+        <imie>Nadia</imie>
+        <nazwisko>Jonik</nazwisko>
+        <dataur>02.11.1079</dataur>
+        <miasto>Gdańsk</miasto>
+        <email>jono@abc.pl</email>
+    </osoba>
+</lista_znajomych>
