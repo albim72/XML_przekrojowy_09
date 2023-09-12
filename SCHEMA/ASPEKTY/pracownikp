@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:simpleType name="typNIP">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="^((\d{3}[-]\d{3}[-]\d{2}[-]\d{2})|(\d{3}[-]\d{2}[-]\d{2}[-]\d{3}))$">
+            </xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="firma">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="pracownik" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="imie" type="xsd:string"></xsd:element>
+                            <xsd:element name="nazwisko" type="xsd:string"></xsd:element>
+                            <xsd:element name="nip" type="typNIP"></xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
