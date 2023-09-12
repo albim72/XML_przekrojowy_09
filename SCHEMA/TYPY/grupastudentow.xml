@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<grupaStudentow>
+<grupaStudentow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="grupastudentow.xsd">
     <student>
         <imie>Karol</imie>
         <nazwisko>Kot</nazwisko>
