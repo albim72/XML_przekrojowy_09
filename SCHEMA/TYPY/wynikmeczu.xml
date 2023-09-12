@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wynikMeczu>
+<wynikMeczu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="wynikmeczu.xsd">
     <remis>2:2</remis>
     <wygrana>3:1</wygrana>
     <przegrana>0:2</przegrana>
