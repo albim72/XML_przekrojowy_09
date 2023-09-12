@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- typ mojTypNumer - numeracja od 1 do 150  -->
+    <xsd:simpleType name="mojTypNumer">
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="1"></xsd:minInclusive>
+            <xsd:maxInclusive value="150"></xsd:maxInclusive>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="nrDomu" type="mojTypNumer"></xsd:element>
+</xsd:schema>
