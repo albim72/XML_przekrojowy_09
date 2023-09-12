@@ -2,9 +2,24 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <xsd:simpleType name="typNIP">
         <xsd:restriction base="xsd:string">
-            <xsd:pattern value="([0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}) |
-                                ([0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3})">
+            <xsd:pattern value="([0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}|[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3})">
             </xsd:pattern>
         </xsd:restriction>
     </xsd:simpleType>
+
+    <xsd:element name="firma">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="pracownik" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="imie" type="xsd:string"></xsd:element>
+                            <xsd:element name="nazwisko" type="xsd:string"></xsd:element>
+                            <xsd:element name="nip" type="typNIP"></xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
 </xsd:schema>
