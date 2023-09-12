@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rozprawka>
+    <wstep>To jest wstęp do rozprawki</wstep>
+    <rozwiniecie>To jest rozwinięcie wątków zawartych we wstępie</rozwiniecie>
+    <zakonczenie>To jest podsumowanie wątków rozprawki</zakonczenie>
+</rozprawka>
