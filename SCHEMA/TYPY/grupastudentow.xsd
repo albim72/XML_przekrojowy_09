@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<grupaStudentow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="grupastudentow.xsd">
-    <student>
-        <imie>Karol</imie>
-        <nazwisko>Kot</nazwisko>
-    </student>
-    <student>
-        <nazwisko>Nowak</nazwisko>
-        <imie>Anna</imie>
-        <nrDowodu>TT546256</nrDowodu>
-    </student>
-    <student>
-        <nrDowodu>AS353457</nrDowodu>
-        <nazwisko>Nowik</nazwisko>
-        <imie>Ala</imie>
-    </student>
-    <student>
-        <imie>Leon</imie>
-        <nrDowodu>TT546256</nrDowodu>
-        <nazwisko>Kos</nazwisko>
-    </student>
-    <student>
-        <nazwisko>Pacek</nazwisko>
-        <imie>Nadia</imie>
-    </student>
-</grupaStudentow>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="grupaStudentow">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="student" maxOccurs="20">
+                    <xsd:complexType>
+                        <xsd:all>
+                            <xsd:element name="imie" type="xsd:string"></xsd:element>
+                            <xsd:element name="nazwisko" type="xsd:string"></xsd:element>
+                            <xsd:element name="nrDowodu" type="xsd:string" minOccurs="0"></xsd:element>
+                        </xsd:all>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
