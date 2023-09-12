@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<festiwal>
+    <nazwa>Hard Sounds</nazwa>
+    <sponsorzy>
+        <sponsor>ABC</sponsor>
+        <sponsor>Kraina Zachwytu</sponsor>
+        <sponsor>BigTech</sponsor>
+        <sponsor>Henryk Brej</sponsor>
+    </sponsorzy>
+	<wykonawca>
+		<nazwa>Greengoo</nazwa>
+		<rok_powst>2001</rok_powst>
+		<l_plyt>4</l_plyt>
+		<l_koncertow>12</l_koncertow>
+		<czlonkowie>4</czlonkowie>
+		<lider>Jonny Bravo</lider>
+	</wykonawca>
+	<wykonawca>
+		<nazwa>Jimmy</nazwa>
+		<rok_powst>2005</rok_powst>
+		<l_plyt>2</l_plyt>
+		<l_koncertow>4</l_koncertow>
+		<czlonkowie>3</czlonkowie>
+		<lider>Jim Tim</lider>
+	</wykonawca>
+	<wykonawca>
+		<nazwa>Łowcy Schabu</nazwa>
+		<rok_powst>2003</rok_powst>
+		<l_plyt>2</l_plyt>
+		<l_koncertow>8</l_koncertow>
+		<czlonkowie>4</czlonkowie>
+		<lider>Jan Schab</lider>
+	</wykonawca>
+    <wykonawca>
+		<nazwa>Aleksander</nazwa>
+		<rok_powst>2012</rok_powst>
+		<l_plyt>3</l_plyt>
+		<l_koncertow>12</l_koncertow>
+		<czlonkowie>1</czlonkowie>
+		<lider>Aleksander Felo</lider>
+	</wykonawca>
+
+</festiwal>
