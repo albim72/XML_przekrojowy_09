@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<przychodnia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="nazwisko.xsd">
+    <pacjent>
+        <imie>Jan</imie>
+        <nazwisko>Kowalski</nazwisko>
+        <miasto>Lublin</miasto>
+    </pacjent>
+    <pacjent>
+        <imie>JanArkadiuszMoniuszBaldiniuszPatrykiusz</imie>
+        <nazwisko>K</nazwisko>
+        <miasto></miasto>
+    </pacjent>
+    <pacjent>
+        <imie>Jan</imie>
+        <nazwisko>Kowalski</nazwisko>
+        <miasto>Lublin</miasto>
+    </pacjent>
+</przychodnia>
