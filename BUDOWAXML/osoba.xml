@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spisosob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="osoba.xsd">
+    <osoba>
+
+        <nazwisko>Berek</nazwisko>
+        <imie>Jan</imie>
+
+    </osoba>
+
+    <osoba>
+
+        <nazwisko>Berek</nazwisko>
+        <imie>Anna</imie>
+        <panienskie>Kos</panienskie>
+
+        
+    </osoba>
+
+    <osoba>
+
+        <nazwisko>Kowal</nazwisko>
+        <imie>Antek</imie>
+        <dzieci>Jacek</dzieci>
+        <dzieci>Ewa</dzieci>
+        
+    </osoba>
+
+</spisosob>
