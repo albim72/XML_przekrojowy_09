@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT festiwal (nazwafest,sponsorzy,wykonawca*)>
+<!ATTLIST festiwal edycja CDATA #REQUIRED>
+<!ATTLIST festiwal otwarcie CDATA #REQUIRED>
+
+<!ELEMENT nazwafest (#PCDATA)>
+<!ELEMENT sponsorzy (sponsor*)>
+<!ELEMENT sponsor (#PCDATA)>
+
+<!ELEMENT wykonawca (nazwa,rok_powst,l_plyt,l_koncertow,czlonkowie,lider)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT rok_powst (#PCDATA)>
+<!ELEMENT l_plyt (#PCDATA)>
+<!ELEMENT l_koncertow (#PCDATA)>
+<!ELEMENT czlonkowie (#PCDATA)>
+<!ELEMENT lider (#PCDATA)>
