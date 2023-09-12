@@ -7,6 +7,15 @@
         </xsd:restriction>
     </xsd:simpleType>
 
+    <xsd:simpleType name="kodWaluty">
+        <xsd:restriction base="xsd:string">
+            <xsd:length value="3"></xsd:length>
+            <xsd:pattern value="[U,S,D,P,L,N,C,H,F]{0,3}">
+            </xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+
     <xsd:element name="firma">
         <xsd:complexType>
             <xsd:sequence>
@@ -16,6 +25,7 @@
                             <xsd:element name="imie" type="xsd:string"></xsd:element>
                             <xsd:element name="nazwisko" type="xsd:string"></xsd:element>
                             <xsd:element name="nip" type="typNIP"></xsd:element>
+                            <xsd:element name="waluta" type="kodWaluty"></xsd:element>
                         </xsd:sequence>
                     </xsd:complexType>
                 </xsd:element>
