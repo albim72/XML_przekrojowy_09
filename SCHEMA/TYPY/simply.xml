@@ -4,5 +4,6 @@
 xsi:noNamespaceSchemaLocation="simply.xsd">
     <!-- <ulica>Słowackiego</ulica> -->
     <nrDomu>145</nrDomu>
+    <id>3</id>
     <!-- <miasto>Zamość</miasto> -->
 </adres>
