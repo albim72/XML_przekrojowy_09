@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="fest.css"?>
 <festiwal>
-    <nazwa>Hard Sounds</nazwa>
+    <nazwafest>Hard Sounds</nazwafest>
     <sponsorzy>
+        Sponsorzy festiwalu:
         <sponsor>ABC</sponsor>
         <sponsor>Kraina Zachwytu</sponsor>
         <sponsor>BigTech</sponsor>
         <sponsor>Henryk Brej</sponsor>
     </sponsorzy>
+    Wykonawcy:
 	<wykonawca>
 		<nazwa>Greengoo</nazwa>
 		<rok_powst>2001</rok_powst>
