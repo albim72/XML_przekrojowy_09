@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="uczelnia">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="listaStudentow">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="student" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="nazwisko" type="xsd:string"></xsd:element>
+                                        <xsd:element name="imie" type="xsd:string"></xsd:element>
+                                        <xsd:element name="nrIndeksu" type="xsd:decimal"></xsd:element>
+                                        <xsd:element name="wydzialStudent" type="xsd:string"></xsd:element>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="grupa" type="xsd:string"></xsd:attribute>
+                                    <xsd:attribute name="pozycjaWGrupie" type="xsd:string"></xsd:attribute>
+                                </xsd:complexType> 
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+
+                    <!-- klucz prosty odwołanie do pola selektora (elementu nadrzędnego)-->
+                    <xsd:key name="kluczStudenta">
+                        <xsd:selector xpath="student"></xsd:selector>
+                        <xsd:field xpath="nrIndeksu"></xsd:field>
+                    </xsd:key>
+
+                    <!-- klucz złożony o charakterze unikatowym -->
+                    <xsd:unique name="kluczZlozony">
+                        <xsd:selector xpath="student"></xsd:selector>
+                        <xsd:field xpath="wydzialStudent"></xsd:field>
+                        <xsd:field xpath="@grupa"></xsd:field>
+                        <xsd:field xpath="@pozycjaWGrupie"></xsd:field>
+                    </xsd:unique>
+
+                </xsd:element>
+
+                <xsd:element name="wydzial" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nazwa" type="xsd:string"></xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="numerWydzialu" type="xsd:string"></xsd:attribute>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+
+        <xsd:unique name="kluczNazwiskoImie">
+            <xsd:selector xpath="listaStudentow/student"></xsd:selector>
+            <xsd:field xpath="nazwisko"></xsd:field>
+            <xsd:field xpath="imie"></xsd:field>
+        </xsd:unique>
+
+        <xsd:key name="kluczWydzial">
+            <xsd:selector xpath="wydzial"></xsd:selector>
+            <xsd:field xpath="@numerWydzialu"></xsd:field>
+        </xsd:key>
+
+        <xsd:keyref name="wydzStudenta" refer="kluczWydzial">
+            <xsd:selector xpath="listaStudentow/student"></xsd:selector>
+            <xsd:field xpath="wydzialStudent"></xsd:field>
+
+        </xsd:keyref>
+
+
+    </xsd:element>
+</xsd:schema>   
