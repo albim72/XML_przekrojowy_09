@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="fest.css"?>
+<!DOCTYPE festiwal SYSTEM "fest.dtd">
 <festiwal edycja='3' otwarcie='21.10.2023'>
     <nazwafest>Hard Sounds</nazwafest>
-    <sponsorzy>=
-        Sponsorzy festiwalu:
+    <sponsorzy>
+        <!-- Sponsorzy festiwalu: -->
         <sponsor>ABC</sponsor>
         <sponsor>Kraina Zachwytu</sponsor>
         <sponsor>BigTech</sponsor>
         <sponsor>Henryk Brej</sponsor>
     </sponsorzy>
-    Wykonawcy:
+    <!-- Wykonawcy: -->
 	<wykonawca>
 		<nazwa>Greengoo</nazwa>
 		<rok_powst>2001</rok_powst>
