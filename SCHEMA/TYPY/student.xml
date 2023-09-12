@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<studenci>
+<studenci xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="student.xsd">
     <student>
         <imie>Jan</imie>
         <nazwisko>Nowak</nazwisko>
@@ -10,4 +11,13 @@
         <nazwisko>Kot</nazwisko>
         <rokStudiow>2</rokStudiow>
     </student>
+    <student>
+        <imie>Leon</imie>
+        <nazwisko>Knot</nazwisko>
+        <rokStudiow>4</rokStudiow>
+    </student>
+    <rekruter>
+        <imie>Anna</imie>
+        <nazwisko>Kowal</nazwisko>
+    </rekruter>
 </studenci>
