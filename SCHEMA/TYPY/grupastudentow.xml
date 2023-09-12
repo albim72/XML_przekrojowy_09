@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<grupaStudentow>
+    <student>
+        <imie>Karol</imie>
+        <nazwisko>Kot</nazwisko>
+    </student>
+    <student>
+        <nazwisko>Nowak</nazwisko>
+        <imie>Anna</imie>
+        <nrDowodu>TT546256</nrDowodu>
+    </student>
+    <student>
+        <nrDowodu>AS353457</nrDowodu>
+        <nazwisko>Nowik</nazwisko>
+        <imie>Ala</imie>
+    </student>
+    <student>
+        <imie>Leon</imie>
+        <nrDowodu>TT546256</nrDowodu>
+        <nazwisko>Kos</nazwisko>
+    </student>
+    <student>
+        <nazwisko>Pacek</nazwisko>
+        <imie>Nadia</imie>
+    </student>
+</grupaStudentow>
