@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<firma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="nip.xsd">
+    <pracownik>
+        <imie>Jan</imie>
+        <nazwisko>Kowal</nazwisko>
+        <nip>987-456-78-54</nip>
+    </pracownik>
+    <pracownik>
+        <imie>Jan</imie>
+        <nazwisko>Kowal</nazwisko>
+        <nip>922-45-41-233</nip>
+    </pracownik>
+    <pracownik>
+        <imie>Jan</imie>
+        <nazwisko>Kowal</nazwisko>
+        <nip>9884567054</nip>
+    </pracownik>
+</firma>
