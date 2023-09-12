@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- Typy pochodne -->
+    <xsd:complexType name="osoba">
+        <xsd:sequence>
+            <xsd:element name="imie" type="xsd:string" maxOccurs="1"></xsd:element>
+            <xsd:element name="nazwisko" type="xsd:string" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="typStudent">
+        <xsd:complexContent>
+            <xsd:extension base="osoba">
+                <xsd:sequence>
+                    <xsd:element name="rokStudiow" type="xsd:unsignedInt"></xsd:element>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:element name="studenci">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="student" type="typStudent" maxOccurs="unbounded"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+   <xsd:element name="rekruter" type="osoba"></xsd:element>
+    
+</xsd:schema>   
