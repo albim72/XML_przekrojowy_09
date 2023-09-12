@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<uczelnia>
+    <listaStudentow>
+        <student grupa="I" pozycjaWGrupie="10">
+            <nazwisko>Kowalski</nazwisko>
+            <imie>Jan</imie>
+            <nrIndeksu>347</nrIndeksu>
+            <wydzialStudent>3499</wydzialStudent>
+        </student>
+        <student grupa="I" pozycjaWGrupie="11">
+            <nazwisko>Nowak</nazwisko>
+            <imie>Anna</imie>
+            <nrIndeksu>536</nrIndeksu>
+            <wydzialStudent>3499</wydzialStudent>
+        </student>
+        <student grupa="IV" pozycjaWGrupie="2">
+            <nazwisko>Leonowski</nazwisko>
+            <imie>Leon</imie>
+            <nrIndeksu>876</nrIndeksu>
+            <wydzialStudent>3122</wydzialStudent>
+        </student>
+    </listaStudentow>
+
+    <wydzial numerWydzialu="3499">
+        <nazwa>Wydział Informatyki i Zarządzania</nazwa>
+    </wydzial>
+    <wydzial numerWydzialu="3122">
+        <nazwa>Wydział Elektroniki</nazwa>
+    </wydzial>
+</uczelnia>
