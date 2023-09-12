@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="adres" type="mojTypAdres"></xsd:element>
+
+    <xsd:complexType name="mojTypAdres">
+        <xsd:sequence>
+            <xsd:element name="ulica" type="xsd:string"></xsd:element>
+            <xsd:element name="nrDomu" type="mojTypNumerDomu"></xsd:element>
+            <xsd:element name="id" type="mojTypNumerDomu"></xsd:element>
+            <xsd:element name="miasto" type="xsd:string"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="typ_adresu" type="xsd:token" fixed="czasowy"></xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:simpleType name="mojTypNumerDomu">
+        <xsd:restriction base="xsd:positiveInteger"></xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>
