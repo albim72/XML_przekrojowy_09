@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="mojplik.xsd">
+    <!-- zasadnicza część dokumentu
+    dokument ten służy do pokazania połączenie xml ze schemą (xsd)-->
+</elRoot>
