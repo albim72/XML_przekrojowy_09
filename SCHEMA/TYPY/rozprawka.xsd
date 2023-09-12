@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="rozprawka">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="wstep" type="xsd:string"></xsd:element>
+                <xsd:element name="rozwiniecie" type="xsd:string"></xsd:element>
+                <xsd:element name="zakonczenie" type="xsd:string"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
