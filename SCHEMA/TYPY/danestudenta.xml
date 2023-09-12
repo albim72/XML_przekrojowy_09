@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osoba xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="daneosoby.xsd">
+    <imie>Jan</imie>    
+    <nazwisko>Kowalski</nazwisko>
+    <nrLegitymacji>Legitymacja studencka: E4/2023</nrLegitymacji>
+    <nrLegitymacji>Przepustka: 555</nrLegitymacji>
+    <nrLegitymacji>Legitymacja wędkarska: 6545/2023</nrLegitymacji>
+    <wiek>22</wiek>
+    
+</osoba>
