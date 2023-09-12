@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<firmaHandlowa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="firmahandlowa.xsd">
+<!-- <kontrahent pesel='70111101456' NIP='7123456677'>
+    <nazwisko>Kowalski</nazwisko>
+    <imie>Jan</imie>
+    <upust>7.00</upust>
+
+</kontrahent> -->
+<pracownik pesel="70111101456" NIP="7123456677" stanowisko="kierownik">
+    <nazwisko>Kos</nazwisko>
+    <imie>Anna</imie>
+    <dzial>magazyn</dzial>
+</pracownik>
+</firmaHandlowa>
