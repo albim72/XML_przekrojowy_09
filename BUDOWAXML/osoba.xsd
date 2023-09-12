@@ -3,7 +3,7 @@
     <xsd:element name="spisosob">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="osoba">
+                <xsd:element name="osoba" maxOccurs="unbounded">
                     <xsd:complexType>
                         <xsd:sequence>
                             <xsd:element name="nazwisko"></xsd:element>
