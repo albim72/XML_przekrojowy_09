@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="fest.css"?>
-<festiwal>
+<festiwal edycja='3' otwarcie='21.10.2023'>
     <nazwafest>Hard Sounds</nazwafest>
-    <sponsorzy>
+    <sponsorzy>=
         Sponsorzy festiwalu:
         <sponsor>ABC</sponsor>
         <sponsor>Kraina Zachwytu</sponsor>
