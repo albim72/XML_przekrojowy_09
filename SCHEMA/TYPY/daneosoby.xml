@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osoba xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="daneosoby.xsd">
-    <nrPesel>7123452345</nrPesel>
-    <nazwisko>Kowalski</nazwisko>
     <imie>Jan</imie>
+    <nazwisko>Kowalski</nazwisko>
+    <nrPesel>7123452345</nrPesel>
+    <wiek>45</wiek>
 </osoba>
