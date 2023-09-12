@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <xsd:element name="osoba">
+    <xsd:element name="spisosob">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="nazwisko"></xsd:element>
-                <xsd:element name="imie" maxOccurs="unbounded"></xsd:element>
-                <xsd:element name="panienskie" minOccurs="0"></xsd:element>
-                <xsd:element name="dzieci" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+                <xsd:element name="osoba">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="nazwisko"></xsd:element>
+                            <xsd:element name="imie" maxOccurs="unbounded"></xsd:element>
+                            <xsd:element name="panienskie" minOccurs="0"></xsd:element>
+                            <xsd:element name="dzieci" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+                        </xsd:sequence>
+                </xsd:complexType>
+                </xsd:element>
             </xsd:sequence>
         </xsd:complexType>
+           
     </xsd:element>
+
+    
 </xsd:schema>
