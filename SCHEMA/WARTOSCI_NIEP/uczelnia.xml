@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<uczelnia>
+<uczelnia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="uczelnia.xsd">
     <listaStudentow>
         <student grupa="I" pozycjaWGrupie="10">
             <nazwisko>Kowalski</nazwisko>
@@ -20,6 +21,18 @@
             <nrIndeksu>876</nrIndeksu>
             <wydzialStudent>3122</wydzialStudent>
         </student>
+        <student grupa="I" pozycjaWGrupie="10">
+            <nazwisko>Leonowski</nazwisko>
+            <imie>Linus</imie>
+            <nrIndeksu>832</nrIndeksu>
+            <wydzialStudent>3122</wydzialStudent>
+        </student>
+        <student grupa="V" pozycjaWGrupie="8">
+            <nazwisko>Lepek</nazwisko>
+            <imie>Linus</imie>
+            <nrIndeksu>811</nrIndeksu>
+            <wydzialStudent>2211</wydzialStudent>
+        </student>
     </listaStudentow>
 
     <wydzial numerWydzialu="3499">
@@ -27,5 +40,8 @@
     </wydzial>
     <wydzial numerWydzialu="3122">
         <nazwa>Wydział Elektroniki</nazwa>
+    </wydzial>
+    <wydzial numerWydzialu="2211">
+        <nazwa>Wydział Archologii</nazwa>
     </wydzial>
 </uczelnia>
