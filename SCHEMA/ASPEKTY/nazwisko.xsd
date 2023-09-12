@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <xsd:simpleType name="nazwiskoTyp">
+    <xsd:simpleType name="tekstTyp">
         <xsd:restriction  base="xsd:string">
             <xsd:minLength value="2" fixed="true"></xsd:minLength>
             <xsd:maxLength value="30"></xsd:maxLength>
         </xsd:restriction>
     </xsd:simpleType>
+
+    <xsd:element name="przychodnia">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="pacjent" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="imie" type="tekstTyp"></xsd:element>
+                            <xsd:element name="nazwisko" type="tekstTyp"></xsd:element>
+                            <xsd:element name="miasto" type="tekstTyp"></xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
 </xsd:schema>
