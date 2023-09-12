@@ -9,4 +9,5 @@
     </xsd:simpleType>
 
     <xsd:element name="nrDomu" type="mojTypNumer"></xsd:element>
+    <xsd:element name="id" type="mojTypNumer"></xsd:element>
 </xsd:schema>
