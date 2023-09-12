@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:group name="osobaFizyczna">
+  <xsd:sequence>
+    <xsd:element name="nazwisko" type="xsd:string"/>
+    <xsd:element name="imie"     type="xsd:string"/>
+  </xsd:sequence>
+</xsd:group>
+
+<xsd:attributeGroup name="osobaAtrybut">
+  <xsd:attribute name="pesel" type="xsd:string"/>
+  <xsd:attribute name="NIP"   type="xsd:string"/>
+</xsd:attributeGroup>
+
+<xsd:element name="firmaHandlowa">
+  <xsd:complexType>
+    <xsd:choice>
+      <xsd:element name="kontrahent">
+        <xsd:complexType>
+          <xsd:sequence>
+             <xsd:group ref="osobaFizyczna"/>
+             <xsd:element name="upust" type="xsd:decimal"/>
+          </xsd:sequence>
+          <xsd:attributeGroup ref="osobaAtrybut"/>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="pracownik">
+        <xsd:complexType>
+          <xsd:sequence>
+             <xsd:group ref="osobaFizyczna"/>
+             <xsd:element name="dzial" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attributeGroup ref="osobaAtrybut"/>
+          <xsd:attribute name="stanowisko" type="xsd:string"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:choice>
+  </xsd:complexType>
+</xsd:element>
+
+</xsd:schema>
