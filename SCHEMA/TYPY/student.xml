@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studenci>
+    <student>
+        <imie>Jan</imie>
+        <nazwisko>Nowak</nazwisko>
+        <rokStudiow>3</rokStudiow>
+    </student>
+    <student>
+        <imie>Olga</imie>
+        <nazwisko>Kot</nazwisko>
+        <rokStudiow>2</rokStudiow>
+    </student>
+</studenci>
