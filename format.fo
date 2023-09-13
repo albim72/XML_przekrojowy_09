@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:layout-master-set>
+    <fo:simple-page-master    master-name="okladka"
+         page-height="12cm"   page-width="8cm"
+         margin-top="0.5cm"   margin-bottom="0.5cm"
+         margin-left="2.0cm"  margin-right="2.0cm">
+      <fo:region-before extent="1.5cm"/>1
+      <fo:region-after extent="1.0cm"/>
+      <fo:region-body margin-top="4cm"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+
+  <fo:page-sequence master-name="okladka">
+    <!-- Nag��wek -->
+    <fo:static-content flow-name="xsl-region-before"> 
+      <fo:block font-family="Helvetica" font-size="8pt" text-align="center">
+        Sprawozdanie finansowe  
+      </fo:block>
+    </fo:static-content>
+
+    <!-- Stopka -->
+    <fo:static-content flow-name="xsl-region-after"> 
+      <fo:block text-align="end" font-size="8pt">Strona numer :
+        <fo:page-number/>
+      </fo:block>
+    </fo:static-content>
+
+    <!-- Obszar g��wny -->
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block font-family="Helvetica" font-size="24pt" 
+                text-align="center">
+        Zestawienie roczne
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence> 
+</fo:root>
