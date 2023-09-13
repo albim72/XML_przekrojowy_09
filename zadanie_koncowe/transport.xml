@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pojazd>
+    <rodzaj>SUV</rodzaj>
+    <marka>Jeep</marka>
+    <typ>Cherokee</typ>
+    <rocznik>2019</rocznik>
+    <poj_silnika>4.4</poj_silnika>
+</pojazd>
