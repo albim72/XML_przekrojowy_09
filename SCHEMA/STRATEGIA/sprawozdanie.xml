@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<sprawozdanie rodzaj='roczne'>
+<sprawozdanie rodzaj='roczne' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="sprawozdanie.xsd">
     <autorzy liczba_autorow='2'>
-        <autor>
+        <autor miejsce='pierwszy'>
             <obraz url='231.199.99.10/ob1.jpg' />
             <imie>Anna</imie>
             <nazwisko>Kot</nazwisko>
         </autor>
 
-        <autor>
+        <autor miejsce='drugi'>
             <obraz url='231.199.99.10/ob2.jpg' />
             <imie>Jan</imie>
             <nazwisko>Nowak</nazwisko>
@@ -21,11 +22,11 @@
 
     <dane>
         <pozycja waluta='PLN' okres='kwartal' typ_danych='zysk'>
-            <nr_okresu>I</nr_okresu>
+            <nr_okresu>1</nr_okresu>
             <wartosc>2234500</wartosc>
         </pozycja>
         <pozycja okres='kwartal' typ_danych='zysk'>
-            <nr_okresu>II</nr_okresu>
+            <nr_okresu>2</nr_okresu>
             <wartosc>4134500</wartosc>
         </pozycja>
         <pozycja waluta='PLN' okres='miesiac' typ_danych='obrot'>
