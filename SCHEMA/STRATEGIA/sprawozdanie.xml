@@ -21,15 +21,15 @@ xsi:noNamespaceSchemaLocation="sprawozdanie.xsd">
     </tytul>
 
     <dane>
-        <pozycja waluta='PLN' okres='kwartal' typ_danych='zysk'>
+        <pozycja waluta='PLN' okres='kwartał' typ_danych='zysk'>
             <nr_okresu>1</nr_okresu>
             <wartosc>2234500</wartosc>
         </pozycja>
-        <pozycja okres='kwartal' typ_danych='zysk'>
+        <pozycja okres='kwartał' typ_danych='zysk'>
             <nr_okresu>2</nr_okresu>
             <wartosc>4134500</wartosc>
         </pozycja>
-        <pozycja waluta='PLN' okres='miesiac' typ_danych='obrot'>
+        <pozycja waluta='PLN' okres='miesiąc' typ_danych='obrót'>
             <nr_okresu>7</nr_okresu>
             <wartosc>15340000</wartosc>
         </pozycja>
