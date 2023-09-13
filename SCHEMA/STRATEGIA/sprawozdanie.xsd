@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:simpleType name="typImie">
+        <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="25"></xsd:maxLength>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typNazwisko">
+        <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="35"></xsd:maxLength>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typTytul">
+        <xsd:restriction base="xsd:string">
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typNrOkresu">
+        <xsd:restriction base="xsd:nonNegativeInteger">
+            <xsd:maxInclusive value="50"></xsd:maxInclusive>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typWaluta">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:fractionDigits value="2" fixed="true"></xsd:fractionDigits>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typKodWaluty">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z]{3}"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typRodzajWaluty">
+        <xsd:restriction base="typKodWaluty">
+            <xsd:enumeration value="PLN"></xsd:enumeration>
+            <xsd:enumeration value="USD"></xsd:enumeration>
+            <xsd:enumeration value="EUR"></xsd:enumeration>
+            <xsd:enumeration value="CHF"></xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typOkres">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="dzień"></xsd:enumeration>
+            <xsd:enumeration value="miesiąc"></xsd:enumeration>
+            <xsd:enumeration value="kwartał"></xsd:enumeration>
+            <xsd:enumeration value="półrocze"></xsd:enumeration>
+            <xsd:enumeration value="rok"></xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>   
