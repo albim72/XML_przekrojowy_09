@@ -62,10 +62,15 @@
         </xsd:restriction>
     </xsd:simpleType>
 
+    <xsd:complexType name="typObraz">
+        <xsd:attribute name="url" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+  
     <!-- złożenie lokalnych definicji -->
 
     <xsd:complexType name="typAutor">
         <xsd:sequence>
+            <xsd:element name="obraz" type="typObraz" maxOccurs="unbounded"></xsd:element>
             <xsd:element name='imie' type="typImie"></xsd:element>
             <xsd:element name='nazwisko' type="typNazwisko"></xsd:element>
         </xsd:sequence>
@@ -74,7 +79,7 @@
 
     <xsd:complexType name="typAutorzy">
         <xsd:sequence>
-            <xsd:element name="autor" maxOccurs="unbounded"></xsd:element>
+            <xsd:element name="autor" type="typAutor" maxOccurs="unbounded"></xsd:element>
         </xsd:sequence>
         <xsd:attribute name="liczba_autorow" type="xsd:nonNegativeInteger"></xsd:attribute>
     </xsd:complexType>
@@ -107,5 +112,16 @@
             <xsd:enumeration value="trzyletnie"></xsd:enumeration>
         </xsd:restriction>
     </xsd:simpleType>
+
+    <xsd:element name="sprawozdanie">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="autorzy" type="typAutorzy"></xsd:element>
+                <xsd:element name="tytul" type="typTytul" maxOccurs="unbounded"></xsd:element>
+                <xsd:element name="dane" type="typDane"></xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="rodzaj" type="typRodzajSprawozdania" default="roczne"></xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
 
 </xsd:schema>   
