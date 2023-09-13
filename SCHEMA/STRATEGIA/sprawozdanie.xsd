@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
     <xsd:simpleType name="typImie">
         <xsd:restriction base="xsd:string">
             <xsd:maxLength value="25"></xsd:maxLength>
@@ -51,6 +52,59 @@
             <xsd:enumeration value="kwartał"></xsd:enumeration>
             <xsd:enumeration value="półrocze"></xsd:enumeration>
             <xsd:enumeration value="rok"></xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="typRodzajWartosci">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="zysk"></xsd:enumeration>
+            <xsd:enumeration value="obrót"></xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- złożenie lokalnych definicji -->
+
+    <xsd:complexType name="typAutor">
+        <xsd:sequence>
+            <xsd:element name='imie' type="typImie"></xsd:element>
+            <xsd:element name='nazwisko' type="typNazwisko"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name='miejsce' type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="typAutorzy">
+        <xsd:sequence>
+            <xsd:element name="autor" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="liczba_autorow" type="xsd:nonNegativeInteger"></xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="typPozycja">
+        <xsd:sequence>
+            <xsd:element name="nr_okresu" type="typNrOkresu"></xsd:element>
+            <xsd:element name="wartosc" type="typWaluta"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="waluta" type="typRodzajWaluty" default="PLN"></xsd:attribute>
+        <xsd:attribute name="okres" type="typOkres" default="miesiąc"></xsd:attribute>
+        <xsd:attribute name="typ_danych" type="typRodzajWartosci" default="zysk"></xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:complexType name="typDane">
+        <xsd:sequence>
+            <xsd:element name="pozycja" type="typPozycja" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="typRodzajSprawozdania">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="tygodniowe"></xsd:enumeration>
+            <xsd:enumeration value="miesięczne"></xsd:enumeration>
+            <xsd:enumeration value="kwartalne"></xsd:enumeration>
+            <xsd:enumeration value="półroczne"></xsd:enumeration>
+            <xsd:enumeration value="roczne"></xsd:enumeration>
+            <xsd:enumeration value="dwuletnie"></xsd:enumeration>
+            <xsd:enumeration value="trzyletnie"></xsd:enumeration>
         </xsd:restriction>
     </xsd:simpleType>
 
