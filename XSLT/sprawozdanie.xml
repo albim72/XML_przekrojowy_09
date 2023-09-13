@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="domyslny.xsl" type="text/xsl"?>
+<?xml-stylesheet href="otherwise.xsl" type="text/xsl"?>
 <sprawozdanie rodzaj='roczne'>
     <autorzy liczba_autorow='2'>
         <autor miejsce='pierwszy'>
@@ -31,6 +31,10 @@
         <pozycja waluta='PLN' okres='miesiąc' typ_danych='obrót'>
             <nr_okresu>7</nr_okresu>
             <wartosc>15340000</wartosc>
+        </pozycja>
+        <pozycja waluta='PLN' okres='kubik' typ_danych='obrót'>
+            <nr_okresu>67</nr_okresu>
+            <wartosc>6425453346536</wartosc>
         </pozycja>
     </dane>
 
